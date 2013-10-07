@@ -3,19 +3,101 @@
 html {
 	font-size:100%;
 	background:#fff;
+	color:#000;
 	font-family:"HelveticaNeue Regular", Helvetica,Arial,sans-serif;
 }
-
 body {
-	max-width:1100px;
-	width:90%;
+	max-width:88.125em/*1410px / 16px*/;
 	margin:0 auto;
+	
 }
 
-
 /*LAYOUT*/
-
+#container {
+	margin:0 auto;
+	width: 92%/*1300px/1410px*/;
+}
 header {
-	border-bottom:1px #dad9d9;
+	width:100%;
+	margin:0;
+}
+#content-page {
+	margin:200px 0 0;
+	width:100%;
+}
+
+/*HEADER*/
+header .fixed-box {
+	padding:24px 0 0;
+	height:105px;
+	top:0;
 	position:fixed;
+	border-bottom:1px solid #dad9d9;
+	width:92%;
+}
+header h1{
+	font-size:1.1875em/*19px/16px*/;
+	font-family:"HelveticaNeue Bold", Helvetica,Arial,sans-serif;
+	font-weight:bold;
+	line-height:1em;
+	background:url(../Img/piuma.png) no-repeat top left;
+	padding:0 0 0 50px;
+	width:30%;
+	float:left;
+}
+header .social-menu{
+	width:70%;
+	min-width:190px;
+	margin:0 0 0 30%;
+	text-align:right;
+	height:32px;
+}
+header .social-menu li{
+	display:inline-block;
+	margin:0;
+	width:35px;
+	height:32px;
+}
+header .social-menu li a{
+	width:32px;
+	height:32px;
+	display:inline-block;
+	background:url(../Img/icone.png) no-repeat 0 0;
+	margin:0;
+}
+#in  a{
+	background-position:0 0;
+}
+#fb  a{
+	background-position:-40px 0;
+}
+#fl a{
+	background-position:-80px 0;
+}
+#sk a{
+	background-position:-119px 0;
+}
+#ml a {
+	background-position:-158px 0;
+}
+header .social-menu li span{
+	position:absolute;
+	top:-9999px;
+	left:-9999px;
+}
+header .page-menu {
+	clear:both;
+	padding:34px 0 0;
+}
+header .page-menu li {
+	display:inline;
+	padding:0 25px 0 0;
+}
+header .page-menu a{
+	text-decoration:none;
+	color:#000;
+	font-size:0.875em/*14px/16px*/;
+}
+header .page-menu a:hover{
+	color:#da0000;
 }
