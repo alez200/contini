@@ -20,6 +20,7 @@ body {
 header {
 	width:100%;
 	margin:0;
+	background:#fff;
 }
 #content-page {
 	margin:200px 0 0;
@@ -34,6 +35,7 @@ header .fixed-box {
 	position:fixed;
 	border-bottom:1px solid #dad9d9;
 	width:92%;
+	background:#fff;
 }
 header h1{
 	font-size:1.1875em/*19px/16px*/;
@@ -103,14 +105,17 @@ header .page-menu a:hover{
 }
 
 /*SECTION GENERIC*/
-
-section h1 {
+section.hp {
+	clear:both;
+}
+section.hp h1 {
 	border-bottom:1px solid #dad9d9;
 	font-size:0.875em /*14/16*/;
 	line-height:2.5em/*50/20*/;
 	font-family:"HelveticaNeue Light", Helvetica,Arial,sans-serif;
 	padding:0 0 0 30px;
-	background:url(../Img/piumaSmall.png) no-repeat top left;
+	margin:0 0 50px;
+	background:url(../Img/piuma_small.png) no-repeat center left;
 }
 
 /*QUOTES*/
@@ -133,6 +138,33 @@ section h1 {
 	line-height:4.5em/*90/20*/;
 	font-family:"HelveticaNeue Light", Helvetica,Arial,sans-serif;
 }
+
+/*Gallery works/clients*/
+
+.gallery {
+	float:left;
+	margin:0 0 70px;
+}
+.gallery  li{
+	display:block;
+	float:left;
+	width:24.7% /*318/1300*/;
+	padding:0;
+	margin:0 0.4% 0.4% 0;
+}
+.gallery  li.last_row{
+	margin-right:0;
+}
+.gallery  li a{
+	margin:0;
+	padding:0;
+}
+.gallery  li img{
+	width:100%;
+	margin:0 0 -3px;
+	padding:0;
+}
+
 
 /*FOOTER*/
 
