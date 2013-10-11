@@ -119,7 +119,6 @@ section.hp h1 {
 }
 
 /*QUOTES*/
-
 #quotes h1 {
 	position:absolute;
 	top:-9999px;
@@ -139,7 +138,7 @@ section.hp h1 {
 	font-family:"HelveticaNeue Light", Helvetica,Arial,sans-serif;
 }
 
-/*Gallery works/clients*/
+/*GALLERY WORKS/CLIENTS*/
 
 .gallery {
 	float:left;
@@ -164,6 +163,28 @@ section.hp h1 {
 	margin:0 0 -3px;
 	padding:0;
 }
+/*ABOUT*/
+
+.bio{
+	width:75%;
+	margin:0;
+	padding:0;
+	float:left
+}
+.cv {
+	width:25%;
+	margin:0 0 0 75%;
+	padding:0;
+
+}
+
+.bio img {
+	margin:0;
+	padding:0;
+	float:left
+}
+
+
 
 
 /*FOOTER*/
