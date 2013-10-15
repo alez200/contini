@@ -7,8 +7,6 @@
 }
 
 
-
-
 html {
 	font-size:100%;
 	background:#fff;
@@ -17,7 +15,8 @@ html {
 }
 
 body {
-	max-width:88.125em/*1410px / 16px*/;
+	max-width:88.125em /*1410px / 16px*/;
+	min-width:20em /*320px / 16px*/;
 	margin:0 auto;
 	
 }
@@ -26,11 +25,13 @@ body {
 #container {
 	margin:0 auto;
 	width: 92%/*1300px/1410px*/;
+	min-width:320px;
 }
 header {
 	width:100%;
 	margin:0;
 	background:#fff;
+	min-width:320px;
 }
 #content-page {
 	margin:200px 0 0;
@@ -50,8 +51,9 @@ header .fixed-box {
 header h1{
 	height:42px;
 	background:url(../Img/logo.png) no-repeat top left;
-	padding:0 0 0 50px;
+	padding:0;
 	width:30%;
+	min-width:140px;
 	float:left;
 }
 header h1 span{
@@ -59,12 +61,13 @@ header h1 span{
 	top:-9999px;
 	left:-9999px;
 }
+
 header .social-menu, .on_social .social-menu {
-	width:70%;
-	min-width:190px;
-	margin:0 0 0 30%;
 	text-align:right;
 	height:32px;
+}
+header .social-menu{
+	float:right;
 }
 .on_social .social-menu {
 	width:100%;
@@ -74,7 +77,8 @@ header .social-menu, .on_social .social-menu {
 }
 
 header .social-menu li, .on_social .social-menu li{
-	display:inline-block;
+	display:block;
+	float:left;
 	margin:0;
 	width:35px;
 	height:32px;
@@ -87,13 +91,6 @@ header .social-menu li a, .on_social  .social-menu li a{
 	margin:0;
 }
 
-header .social-menu li a, .on_social .social-menu li a{
-	width:32px;
-	height:32px;
-	display:inline-block;
-	background:url(../Img/icone.png) no-repeat 0 0;
-	margin:0;
-}
 #in  a{
 	background-position:0 0;
 }
@@ -152,7 +149,7 @@ section.hp h1 {
 	left:-9999px;
 }
 .quote{
-	height:500px;
+	min-height:500px;
 }
 .quote .testo {
 	font-size:5.25em/*90px/16px*/;
@@ -170,6 +167,7 @@ section.hp h1 {
 .gallery {
 	float:left;
 	margin:0 0 70px;
+	width:100%;
 }
 .gallery  li{
 	display:block;
@@ -340,4 +338,37 @@ footer {
 	clear:both;
 	padding:10px 0 30px;
 	font-size:0.875em /*14/16*/;
+}
+
+
+
+
+@media screen and (max-width:700px) {
+	
+}
+
+
+@media screen and (max-width:360px) {
+	#container,header .fixed-box {
+		width: 100%;	
+	}
+	header .fixed-box {
+		width: 96%;	
+		padding-right: 2%;
+		padding-left: 2%;
+	}	
+	header h1{
+		width:140px;
+	}
+	header .social-menu {
+		width:120px;
+	}
+	.quote .testo {
+		font-size:2.5em;
+	}
+	.gallery  li{
+		width:88% /*318/360*/;
+		margin:0 auto 7px;
+		text-align:center;
+	}
 }
