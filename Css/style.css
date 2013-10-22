@@ -2,7 +2,7 @@ html {
 	font-size:100%;
 	background:#fff;
 	color:#000;
-	font-family:"Helvetica Neue",Helvetica;
+	font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica",sans-serif;
 }
 
 body {
@@ -127,7 +127,7 @@ section.hp h1 {
 	border-bottom:1px solid #dad9d9;
 	font-size:0.875em /*14/16*/;
 	line-height:2.5em/*50/20*/;
-	font-family:"Helvetica Neue", Helvetica,Arial,sans-serif;
+	
 	padding:0 0 0 30px;
 	margin:0 0 50px;
 	background:url(../Img/piuma_small.png) no-repeat center left;
@@ -145,12 +145,12 @@ section.hp h1 {
 .quote .testo {
 	font-size:5.25em/*90px/16px*/;
 	font-weight:bold;
-	font-family:"Helvetica Neue", Helvetica,Arial,sans-serif;
+	
 }
 .quote .author {
 	font-size:1.25em/*20px/16px*/;
 	line-height:4.5em/*90/20*/;
-	font-family:"Helvetica Neue", Helvetica,Arial,sans-serif;
+	
 }
 
 /*GALLERY WORKS/CLIENTS*/
@@ -205,16 +205,16 @@ section.hp h1 {
 .bio h2{
 	font-size:5em/*50px/16px*/;
 	font-weight:bold;
-	font-family:"HelveticaNeue-Bold", "Helvetica Neue Bold", "Helvetica Neue", Helvetica,Arial,sans-serif;
+	
 	line-height:1em;
 }
 .bio .sub_title{
-	font-family:"Helvetica Neue", Helvetica,Arial,sans-serif;
+	
 	font-size:1.375em/*22px/16px*/;
 	line-height:3.6em/*80px/22px*/;
 }
 .bio .bio_text, .form .abstract{
-	font-family:"Helvetica Neue", Helvetica,Arial,sans-serif;
+	
 	font-size:0.875em/*14px/16px*/;
 	line-height:1.285em/*18px/14px*/;
 	color:#7d7d7d;
@@ -223,7 +223,7 @@ section.hp h1 {
 	margin:0 0 18px;
 }
 .cv h2{
-	font-family:"Helvetica Neue", Helvetica,Arial,sans-serif;
+	
 	font-size:0.875em/*14px/16px*/;
 	line-height:1.285em/*18px/14px*/;
 	border-bottom:1px solid #dad9d9;
@@ -231,7 +231,7 @@ section.hp h1 {
 	margin:0 0 15px;
 }
 .cv ul{
-	font-family:"Helvetica Neue", Helvetica,Arial,sans-serif;
+	
 	font-size:0.875em/*14px/16px*/;
 	line-height:1.285em/*18px/14px*/;
 	color:#7d7d7d;
@@ -257,7 +257,7 @@ p.in a span{
 	float:left
 }
 .form h2 {
-	font-family:"Helvetica Neue", Helvetica,Arial,sans-serif;
+	
 	font-size:2.375em/*38px/16px*/;
 	line-height:1.5em/*60px/38px*/;
 }
@@ -273,7 +273,7 @@ form.contact_me  p{
 	-webkit-border-radius: 2px;
 	-moz-border-radius: 2px;
 	border-radius: 2px;
-	font-family:"Helvetica Neue", Helvetica,Arial,sans-serif;
+	
 	font-size:0.875em/*14px/16px*/;
 	line-height:1.285em/*18px/14px*/;	
 }
@@ -295,7 +295,7 @@ form.contact_me  p{
 	-webkit-border-radius: 2px;
 	-moz-border-radius: 2px;
 	border-radius: 2px;
-	font-family:"HelveticaNeue-Bold", "Helvetica Neue Bold", "Helvetica Neue", Helvetica,Arial,sans-serif;
+	
 	font-weight:bold;
 	font-size:0.875em/*14px/16px*/;
 	line-height:1.285em/*18px/14px*/;
@@ -312,7 +312,7 @@ form.contact_me  p{
 
 }
 .on_social h2{
-	font-family:"Helvetica Neue", Helvetica,Arial,sans-serif;
+	
 	font-size:0.875em/*14px/16px*/;
 	line-height:1.285em/*18px/14px*/;
 	border-bottom:1px solid #dad9d9;
