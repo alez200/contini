@@ -2,8 +2,11 @@ html {
 	font-size:100%;
 	background:#fff;
 	color:#000;
-	font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica",sans-serif;
+	font-family: 'Helvetica Neue','HelveticaNeue',serif;
 }
+
+/*"HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', */
+
 
 body {
 	max-width:88.125em /*1410px / 16px*/;
